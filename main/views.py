@@ -24,6 +24,6 @@ def index(request):
 
             else:
                 weather_data['error'] = 'City not found or API error.'
-                print(weather)
+                
 
     return render(request, 'main/index.html', {'weather': weather_data})
