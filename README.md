@@ -1,7 +1,7 @@
 In the main app inside views.py edit api for own weather api key then you run
 
 
-
+https://weather-app-uzjs.onrender.com
 Run
 _________________
 1.download project go to the weather project inside using the command by cd weatherproject
