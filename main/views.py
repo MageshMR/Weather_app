@@ -6,7 +6,7 @@ def index(request):
     if request.method == 'POST':
         city = request.POST.get('city')
         if city:
-            api_key = '3a9e1dc6841d1ff705441642a720cd16'  # Replace with your OpenWeatherMap API key
+            api_key = 'writ your own weather api key'  # Replace with your OpenWeatherMap API key
             url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
             response = requests.get(url)
             if response.status_code == 200:
